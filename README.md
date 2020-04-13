@@ -1,8 +1,9 @@
 # COVID19
 This is a submission repository for CODE19INDIA hackathon.
 
-## Prerequists
+## Prerequisites
 1. Android Phone
+2. Laptop
 
 ## Setup Doctor and Patient App
 To install the doctor and patient app please donwload the apk from the links given below:
