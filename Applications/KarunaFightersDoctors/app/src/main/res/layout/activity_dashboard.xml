@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard"
+    android:background="#fff">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="419dp"
+        android:layout_height="250dp"
+        android:background="#2e0239"/>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/hospi"
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+    android:background="@drawable/overlay"
+    android:layout_below="@id/view"
+    android:elevation="20dp"
+    android:id="@+id/buttonAdding"
+    android:text="Add More Doctors"
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:textColor="@color/colorBlue"
+    />
+
+    <Button
+        android:id="@+id/buttonMedicalAssistance"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/view"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/buttonAdding"
+        android:background="@drawable/overlay"
+        android:elevation="20dp"
+        android:text="Medical Assistance"
+        android:textColor="@color/colorBlue"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/overlay"
+        android:layout_below="@id/buttonAdding"
+        android:elevation="20dp"
+        android:id="@+id/buttonAddingPatient"
+        android:text="Add Patients"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlue"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"        android:background="@drawable/overlay"
+        android:layout_below="@id/buttonMedicalAssistance"
+        android:elevation="20dp"
+        android:layout_toRightOf="@id/buttonAddingPatient"
+        android:id="@+id/buttonListOfDoctors"
+        android:text="List Of Doctors"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorBlue"
+        />
+
+</RelativeLayout>

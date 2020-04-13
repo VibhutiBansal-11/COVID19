@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".LoginActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="419dp"
+        android:layout_height="347dp"
+        android:background="@color/colorBlue"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:fontFamily="cursive"
+        android:text="COVID 19"
+        android:textColor="#FFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="553dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/overlay"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:elevation="20dp"
+        >
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="257dp"
+            android:src="@drawable/patient" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button"
+            android:hint="Email Address"
+            android:textColorHint="#2e0239"
+            android:textColor="#2e0239"
+            android:id="@+id/editEmail"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button"
+            android:hint="Password"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColorHint="#2e0239"
+            android:textColor="#2e0239"
+            android:layout_marginTop="10dp"
+            android:id="@+id/editPass"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="#2e0239"
+            android:id="@+id/buttonSubmit"
+            android:background="@drawable/button"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlue"
+            android:text="Don't have an account? Sign up"
+            android:textStyle="bold"
+            android:id="@+id/textSignUp"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlue"
+            android:text="Forgot Password"
+            android:textStyle="bold"
+            android:id="@+id/textForgot"
+            android:layout_marginTop="10dp"
+            android:textSize="10sp"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:background="#ffffff">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="419dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlue"/>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/overlay"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:elevation="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="@color/colorBlue"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button"
+            android:hint="Name"
+            android:textColorHint="@color/colorBlue"
+            android:textColor="@color/colorBlue"
+            android:id="@+id/editHospital"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"
+            android:textAlignment="center"
+            />
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button"
+            android:hint="Email Address"
+            android:textColorHint="@color/colorBlue"
+            android:textColor="@color/colorBlue"
+            android:id="@+id/editemailAddress"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:orientation="horizontal">
+
+            <!--            <Spinner-->
+            <!--                android:layout_width="wrap_content"-->
+            <!--                android:layout_height="35dp"-->
+            <!--                android:entries="@array/Std"-->
+            <!--                android:id="@+id/spinnerStd"-->
+            <!--                android:layout_marginLeft="20dp"-->
+            <!--                android:background="@drawable/button"-->
+            <!--                android:layout_marginTop="10dp"-->
+            <!--                android:scrollbarSize="20dp"-->
+            <!--                />-->
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:hint="Phone Number"
+                android:textColorHint="@color/colorBlue"
+                android:textColor="@color/colorBlue"
+                android:id="@+id/editPhoneNumber"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                />
+
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button"
+            android:hint="Address"
+            android:textColorHint="@color/colorBlue"
+            android:textColor="@color/colorBlue"
+            android:id="@+id/editAddress"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button"
+            android:hint="City"
+            android:textColorHint="@color/colorBlue"
+            android:textColor="@color/colorBlue"
+            android:layout_marginTop="10dp"
+            android:id="@+id/editCity"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+
+            android:textAlignment="center"
+            /> <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/button"
+        android:hint="State"
+        android:textColorHint="@color/colorBlue"
+        android:textColor="@color/colorBlue"
+        android:layout_marginTop="10dp"
+        android:id="@+id/editState"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button"
+            android:hint="Password"
+            android:textAlignment="center"
+            android:textColorHint="@color/colorBlue"
+            android:textColor="@color/colorBlue"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="#2e0239"
+            android:id="@+id/buttonSubmit"
+            android:background="@drawable/button"
+            android:layout_marginTop="60dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlue"
+            android:text="Already have an account? Login"
+            android:textStyle="bold"
+            android:id="@+id/textLogin"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

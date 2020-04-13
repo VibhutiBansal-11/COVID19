@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorsList"
+    android:background="@color/colorBlue"
+  >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctors list"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/overlay"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/character"
+            android:id="@+id/image"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/image"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr. Ram Kumar"
+
+            android:textColor="@color/colorBlue"
+            android:textStyle="bold"
+            android:id="@+id/doctorName"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cardiology"
+            android:layout_below="@id/doctorName"
+            android:textColor="@color/colorBlue"
+            android:textStyle="bold"
+            android:id="@+id/doctorSpeciality"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ram@gmail.com"
+            android:layout_below="@id/doctorSpeciality"
+            android:textColor="@color/colorBlue"
+            android:textStyle="bold"
+            android:id="@+id/doctorEmailID"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="20sp"/>
+    </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/overlay"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/maledoc"
+            android:id="@+id/image1"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/image1"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. Shyam Bansal"
+
+                android:textColor="@color/colorBlue"
+                android:textStyle="bold"
+                android:id="@+id/doctorName1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Andrology"
+                android:layout_below="@id/doctorName"
+                android:textColor="@color/colorBlue"
+                android:textStyle="bold"
+                android:id="@+id/doctorSpeciality1"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shyam@gmail.com"
+                android:layout_below="@id/doctorSpeciality"
+                android:textColor="@color/colorBlue"
+                android:textStyle="bold"
+                android:id="@+id/doctorEmailID1"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/overlay"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/femaldoc"
+            android:id="@+id/image2"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/image2"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. Shivani Jindal"
+
+                android:textColor="@color/colorBlue"
+                android:textStyle="bold"
+                android:id="@+id/doctorName2"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cardiology"
+                android:layout_below="@id/doctorName"
+                android:textColor="@color/colorBlue"
+                android:textStyle="bold"
+                android:id="@+id/doctorSpeciality2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="jindalshivani11@ gmail.com"
+                android:layout_below="@id/doctorSpeciality"
+                android:textColor="@color/colorBlue"
+                android:textStyle="bold"
+                android:id="@+id/doctorEmailID2"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/overlay"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/femaldoc1"
+            android:id="@+id/image3"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/image3"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dr. Vibhuti Bansal"
+
+                android:textColor="@color/colorBlue"
+                android:textStyle="bold"
+                android:id="@+id/doctorName4"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Andrology"
+                android:layout_below="@id/doctorName"
+                android:textColor="@color/colorBlue"
+                android:textStyle="bold"
+                android:id="@+id/doctorSpeciality4"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="bansalvibhuti@gmail.com"
+                android:layout_below="@id/doctorSpeciality"
+                android:textColor="@color/colorBlue"
+                android:textStyle="bold"
+                android:id="@+id/doctorEmailID4"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add More Doctors"
+            android:textColor="@color/colorBlue"
+            android:textStyle="bold"
+            android:id="@+id/buttonAddMore"
+            android:layout_below="@id/buttonSubmit"
+            android:layout_toLeftOf="@id/buttonSubmit"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button"
+            android:textAlignment="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"/>
+</LinearLayout>
+</ScrollView>

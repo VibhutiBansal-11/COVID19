@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnalyticsActivity"
+    android:background="@drawable/overlay"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/overlay"
+        android:layout_marginTop="5dp"
+        android:id="@+id/linearAnalytics">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Analytics"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textAlignment="center"
+
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorBlue"
+        android:background="@drawable/overlay"
+        android:elevation="5dp"
+        android:id="@+id/textAnalytics"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textAnalytics"
+        android:background="@drawable/overlay"
+        android:elevation="5dp"
+        android:id="@+id/textConfirmed"
+        android:text="New Confirmed: "
+        android:textColor="@color/colorBlue"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textConfirmed"
+        android:background="@drawable/overlay"
+        android:elevation="5dp"
+        android:id="@+id/textTotalConfirmed"
+        android:text="Total Confirmed: "
+        android:textColor="@color/colorBlue"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTotalConfirmed"
+        android:background="@drawable/overlay"
+        android:elevation="5dp"
+        android:id="@+id/textNewDeaths"
+        android:text="New Deaths: "
+        android:textColor="@color/colorBlue"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textNewDeaths"
+        android:background="@drawable/overlay"
+        android:elevation="5dp"
+        android:text="Total Deaths: "
+        android:id="@+id/textTotalDeaths"
+        android:textColor="@color/colorBlue"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textNewRecoverd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textNewRecoverd"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/overlay"
+        android:elevation="5dp"
+        android:text="New Recovered: "
+        android:textColor="@color/colorBlue"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textNewRecoverd"
+        android:background="@drawable/overlay"
+        android:elevation="5dp"
+        android:text="Total Recovered: "
+        android:id="@+id/textTotalRecovered"
+        android:textColor="@color/colorBlue"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/linearAnalytics">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:text="Nearby Dairy and Grocery Shops"
+            android:textStyle="bold"
+            android:id="@+id/buttonGrocery"
+            android:elevation="10dp"
+            android:background="@drawable/newbutton"
+            android:textColor="#fff"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:elevation="10dp"
+            android:text="Take Assessment"
+            android:textStyle="bold"
+            android:id="@+id/buttonAssessment"
+            android:background="@drawable/newbutton"
+            android:textColor="#fff"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

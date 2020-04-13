@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">KarunaFightersDoctors</string>
+    <array name="Std">
+        <item>+91</item>
+        <item>+91</item>
+        <item>+91</item>
+        <item>+91</item>
+        <item>+91</item>
+        <item>+91</item>
+        <item>+91</item>
+        <item>+91</item>
+
+    </array>
+</resources>
